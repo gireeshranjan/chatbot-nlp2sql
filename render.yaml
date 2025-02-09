@@ -2,10 +2,8 @@ services:
   - type: web
     name: nl-to-sql-converter
     env: python
-    buildCommand: |
-      pip install -r requirements.txt
-      python setup_db.py
-    startCommand: streamlit run app.py
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port 10000 --server.address 0.0.0.0
     envVars:
       - key: PYTHON_VERSION
         value: 3.9.16
