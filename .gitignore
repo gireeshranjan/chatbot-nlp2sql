@@ -1,0 +1,58 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+your_venv/
+*.venv/
+
+# Dependency directories
+pip-wheel-metadata/
+*.egg-info/
+*.dist-info/
+
+# SQLite database files (optional, if you want to keep them local)
+*.db
+*.sqlite3
+
+# PyTorch and large model files
+*.lib
+*.dll
+*.ckpt
+*.pt
+
+# Hugging Face cache
+~/.cache/huggingface/
+transformers_cache/
+
+# Logs and debugging
+*.log
+*.out
+*.err
+logs/
+
+# Streamlit specific
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Build artifacts and distributions
+build/
+dist/
+*.egg
+*.whl
+
+# Git LFS (optional, for handling large files)
+*.lfs
