@@ -1,4 +1,4 @@
-pip>=24.0
-streamlit
-transformers
+streamlit==1.18.0
+transformers==4.25.1
 torch==1.13.1+cpu
+pip>=24.0
