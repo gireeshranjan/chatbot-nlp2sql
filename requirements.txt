@@ -1,5 +1,5 @@
-streamlit
+streamlit==1.18.0
+transformers==4.25.1
+torch==1.13.1+cpu
 sqlite3
-transformers
-torch
 logging
